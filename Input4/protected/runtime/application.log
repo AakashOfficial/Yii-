@@ -1,0 +1,1915 @@
+2019/03/07 08:25:33 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "posted/posted". in C:\NewFolder\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('posted/posted')
+#1 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+HTTP_REFERER=http://localhost/Input/
+---
+2019/03/07 08:25:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "posted/posted". in C:\NewFolder\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('posted/posted')
+#1 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+HTTP_REFERER=http://localhost/Input/index.php/site/page?view=about
+---
+2019/03/07 08:25:46 [error] [exception.CException] CException: PostedController cannot find the requested view "post". in C:\NewFolder\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('post', Array, true)
+#1 C:\xampp\htdocs\Input\protected\controllers\PostedController.php(9): CController->render('post', Array)
+#2 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): PostedController->actionPosted()
+#3 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('posted')
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('posted/posted')
+#8 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+HTTP_REFERER=http://localhost/Input/index.php/site/page?view=about
+---
+2019/03/07 08:27:45 [error] [exception.CException] CException: Property "PostedForm.imageupl" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\NewFolder\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('imageupl', '')
+#1 C:\NewFolder\yii\framework\base\CModel.php(472): CActiveRecord->__set('imageupl', '')
+#2 C:\NewFolder\yii\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#3 C:\NewFolder\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('attributes', Array)
+#4 C:\xampp\htdocs\Input\protected\controllers\PostedController.php(15): CActiveRecord->__set('attributes', Array)
+#5 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): PostedController->actionPosted()
+#6 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('posted')
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('posted/posted')
+#11 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 08:29:11 [warning] [application] Failed to set unsafe attribute "image" of "PostedForm".
+in C:\xampp\htdocs\Input\protected\controllers\PostedController.php (15)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 08:29:11 [error] [exception.CException] CException: Property "PostedForm.imageupl" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\NewFolder\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('imageupl', Object(CUploadedFile))
+#1 C:\xampp\htdocs\Input\protected\controllers\PostedController.php(16): CActiveRecord->__set('imageupl', Object(CUploadedFile))
+#2 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): PostedController->actionPosted()
+#3 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('posted')
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('posted/posted')
+#8 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 08:29:38 [warning] [application] Failed to set unsafe attribute "image" of "PostedForm".
+in C:\xampp\htdocs\Input\protected\controllers\PostedController.php (15)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 08:29:38 [error] [exception.CException] CException: Property "PostedForm.imageupl" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\NewFolder\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('imageupl')
+#1 C:\NewFolder\yii\framework\validators\CRequiredValidator.php(58): CActiveRecord->__get('imageupl')
+#2 C:\NewFolder\yii\framework\validators\CValidator.php(213): CRequiredValidator->validateAttribute(Object(PostedForm), 'imageupl')
+#3 C:\NewFolder\yii\framework\base\CModel.php(159): CValidator->validate(Object(PostedForm), Array)
+#4 C:\xampp\htdocs\Input\protected\controllers\PostedController.php(17): CModel->validate()
+#5 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): PostedController->actionPosted()
+#6 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('posted')
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('posted/posted')
+#11 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 08:30:22 [error] [php] Undefined index: image (C:\xampp\htdocs\Input\protected\controllers\PostedController.php:20)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(286): PostedController->runAction()
+#1 C:\NewFolder\yii\framework\web\CController.php(265): PostedController->runActionWithFilters()
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(282): PostedController->run()
+#3 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+in C:\xampp\htdocs\Input\protected\controllers\PostedController.php (20)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 08:34:52 [error] [php] Undefined variable: tmp (C:\xampp\htdocs\Input\protected\controllers\PostedController.php:31)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(286): PostedController->runAction()
+#1 C:\NewFolder\yii\framework\web\CController.php(265): PostedController->runActionWithFilters()
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(282): PostedController->run()
+#3 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+in C:\xampp\htdocs\Input\protected\controllers\PostedController.php (31)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 08:39:07 [error] [php] Undefined variable: tmp (C:\xampp\htdocs\Input\protected\controllers\PostedController.php:33)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(286): PostedController->runAction()
+#1 C:\NewFolder\yii\framework\web\CController.php(265): PostedController->runActionWithFilters()
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(282): PostedController->run()
+#3 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+in C:\xampp\htdocs\Input\protected\controllers\PostedController.php (33)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 08:39:22 [error] [php] Undefined index: image (C:\xampp\htdocs\Input\protected\controllers\PostedController.php:32)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(286): PostedController->runAction()
+#1 C:\NewFolder\yii\framework\web\CController.php(265): PostedController->runActionWithFilters()
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(282): PostedController->run()
+#3 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+in C:\xampp\htdocs\Input\protected\controllers\PostedController.php (32)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 08:39:56 [error] [php] Undefined index: image (C:\xampp\htdocs\Input\protected\controllers\PostedController.php:32)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(286): PostedController->runAction()
+#1 C:\NewFolder\yii\framework\web\CController.php(265): PostedController->runActionWithFilters()
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(282): PostedController->run()
+#3 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+in C:\xampp\htdocs\Input\protected\controllers\PostedController.php (32)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 08:41:11 [error] [php] Undefined index: image (C:\xampp\htdocs\Input\protected\controllers\PostedController.php:33)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(286): PostedController->runAction()
+#1 C:\NewFolder\yii\framework\web\CController.php(265): PostedController->runActionWithFilters()
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(282): PostedController->run()
+#3 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+in C:\xampp\htdocs\Input\protected\controllers\PostedController.php (33)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 08:42:02 [error] [php] Undefined variable: tmp (C:\xampp\htdocs\Input\protected\controllers\PostedController.php:35)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(286): PostedController->runAction()
+#1 C:\NewFolder\yii\framework\web\CController.php(265): PostedController->runActionWithFilters()
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(282): PostedController->run()
+#3 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+in C:\xampp\htdocs\Input\protected\controllers\PostedController.php (35)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 08:49:29 [error] [php] Undefined variable: model (C:\xampp\htdocs\Input\protected\views\posted\posted.php:13)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): PostedController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): PostedController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\PostedController.php(9): PostedController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): PostedController->actionPosted()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): PostedController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): PostedController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): PostedController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+in C:\xampp\htdocs\Input\protected\views\posted\posted.php (13)
+in C:\xampp\htdocs\Input\protected\controllers\PostedController.php (9)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 08:52:26 [error] [php] Undefined index: image (C:\xampp\htdocs\Input\protected\controllers\PostedController.php:43)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(286): PostedController->runAction()
+#1 C:\NewFolder\yii\framework\web\CController.php(265): PostedController->runActionWithFilters()
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(282): PostedController->run()
+#3 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+in C:\xampp\htdocs\Input\protected\controllers\PostedController.php (43)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 09:02:30 [error] [exception.ParseError] ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\Input\protected\controllers\ImagController.php:50
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('posted/')
+#1 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('imag/posted')
+#2 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/Input/index.php/imag/posted?view=posted
+---
+2019/03/07 09:02:35 [error] [exception.ParseError] ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\Input\protected\controllers\ImagController.php:50
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('posted/')
+#1 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('imag/posted')
+#2 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/Input/index.php/imag/posted
+---
+2019/03/07 09:04:53 [error] [exception.ParseError] ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\Input\protected\controllers\ImagController.php:50
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('posted/')
+#1 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('imag/posted')
+#2 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/Input/index.php/imag/posted
+---
+2019/03/07 09:05:19 [error] [exception.ParseError] ParseError: syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\Input\protected\controllers\PostedController.php:43
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('posted/')
+#1 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('posted/posted')
+#2 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+HTTP_REFERER=http://localhost/Input/index.php/site/page?view=about
+---
+2019/03/07 09:06:17 [error] [exception.ParseError] ParseError: syntax error, unexpected '*', expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\Input\protected\controllers\PostedController.php:44
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('posted/')
+#1 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('posted/posted')
+#2 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+HTTP_REFERER=http://localhost/Input/index.php/site/page?view=about
+---
+2019/03/07 09:13:04 [error] [exception.CException] CException: PostedController cannot find the requested view "post". in C:\NewFolder\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('post', Array, true)
+#1 C:\xampp\htdocs\Input\protected\controllers\PostedController.php(9): CController->render('post', Array)
+#2 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): PostedController->actionPosted()
+#3 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('posted')
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('posted/posted')
+#8 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+HTTP_REFERER=http://localhost/Input/index.php/site/page?view=about
+---
+2019/03/07 09:13:06 [error] [exception.CException] CException: PostedController cannot find the requested view "post". in C:\NewFolder\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('post', Array, true)
+#1 C:\xampp\htdocs\Input\protected\controllers\PostedController.php(9): CController->render('post', Array)
+#2 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): PostedController->actionPosted()
+#3 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('posted')
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('posted/posted')
+#8 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+HTTP_REFERER=http://localhost/Input/index.php/site/page?view=about
+---
+2019/03/07 09:13:06 [error] [exception.CException] CException: PostedController cannot find the requested view "post". in C:\NewFolder\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('post', Array, true)
+#1 C:\xampp\htdocs\Input\protected\controllers\PostedController.php(9): CController->render('post', Array)
+#2 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): PostedController->actionPosted()
+#3 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('posted')
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('posted/posted')
+#8 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+HTTP_REFERER=http://localhost/Input/index.php/site/page?view=about
+---
+2019/03/07 09:19:26 [warning] [application] Failed to set unsafe attribute "image" of "PostedForm".
+in C:\xampp\htdocs\Input\protected\controllers\PostedController.php (17)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 09:20:48 [error] [exception.CException] CException: Property "PostedForm.image" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\NewFolder\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('image', '')
+#1 C:\xampp\htdocs\Input\protected\controllers\PostedController.php(38): CActiveRecord->__set('image', '')
+#2 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): PostedController->actionPosted()
+#3 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('posted')
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('posted/posted')
+#8 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 09:21:14 [error] [exception.CException] CException: Property "PostedForm.image" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\NewFolder\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('image', '')
+#1 C:\xampp\htdocs\Input\protected\controllers\PostedController.php(38): CActiveRecord->__set('image', '')
+#2 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): PostedController->actionPosted()
+#3 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('posted')
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('posted/posted')
+#8 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 09:44:32 [error] [php] Undefined index: Submit (C:\xampp\htdocs\Input\protected\controllers\PostedController.php:39)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(286): PostedController->runAction()
+#1 C:\NewFolder\yii\framework\web\CController.php(265): PostedController->runActionWithFilters()
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(282): PostedController->run()
+#3 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/posted/posted?view=posted
+in C:\xampp\htdocs\Input\protected\controllers\PostedController.php (39)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 10:39:38 [error] [php] Undefined variable: model (C:\xampp\htdocs\Input\protected\views\site\registration.php:5)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\SiteController.php(110): SiteController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistration()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/site/registration
+in C:\xampp\htdocs\Input\protected\views\site\registration.php (5)
+in C:\xampp\htdocs\Input\protected\controllers\SiteController.php (110)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 10:42:27 [error] [php] Undefined variable: model (C:\xampp\htdocs\Input\protected\views\site\registration.php:5)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\SiteController.php(110): SiteController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistration()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/site/registration
+in C:\xampp\htdocs\Input\protected\views\site\registration.php (5)
+in C:\xampp\htdocs\Input\protected\controllers\SiteController.php (110)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 10:55:15 [error] [php] Undefined variable: model (C:\xampp\htdocs\Input\protected\views\site\registration.php:5)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\SiteController.php(110): SiteController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistration()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/site/registration
+in C:\xampp\htdocs\Input\protected\views\site\registration.php (5)
+in C:\xampp\htdocs\Input\protected\controllers\SiteController.php (110)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 10:55:49 [error] [php] Undefined variable: model (C:\xampp\htdocs\Input\protected\views\site\registration.php:5)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\SiteController.php(110): SiteController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistration()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/site/registration
+in C:\xampp\htdocs\Input\protected\views\site\registration.php (5)
+in C:\xampp\htdocs\Input\protected\controllers\SiteController.php (110)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 10:57:01 [error] [php] Undefined variable: model (C:\xampp\htdocs\Input\protected\views\site\registration.php:5)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\SiteController.php(110): SiteController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistration()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/site/registration
+in C:\xampp\htdocs\Input\protected\views\site\registration.php (5)
+in C:\xampp\htdocs\Input\protected\controllers\SiteController.php (110)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 10:59:02 [error] [php] Undefined variable: model (C:\xampp\htdocs\Input\protected\views\site\registration.php:5)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\SiteController.php(110): SiteController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistration()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/site/registration
+in C:\xampp\htdocs\Input\protected\views\site\registration.php (5)
+in C:\xampp\htdocs\Input\protected\controllers\SiteController.php (110)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 11:07:15 [error] [exception.CException] CException: SiteController cannot find the requested view "registration". in C:\NewFolder\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registration', NULL, true)
+#1 C:\xampp\htdocs\Input\protected\controllers\SiteController.php(110): CController->render('registration')
+#2 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistration()
+#3 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registration')
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/registrati...')
+#8 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Input/index.php/site/registration
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/07 11:07:42 [error] [exception.CException] CException: SiteController cannot find the requested view "registration". in C:\NewFolder\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registration', NULL, true)
+#1 C:\xampp\htdocs\Input\protected\controllers\SiteController.php(110): CController->render('registration')
+#2 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegistration()
+#3 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registration')
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/registrati...')
+#8 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Input/index.php/site/registration
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/07 11:10:59 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "registration". in C:\NewFolder\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(270): CController->missingAction('registration')
+#1 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registration')
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/registrati...')
+#3 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Input/index.php/site/registration
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/07 11:11:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "registration/registration". in C:\NewFolder\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registration/re...')
+#1 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Input/index.php/registration/registration?view=registration
+HTTP_REFERER=http://localhost/Input/index.php/site/registration
+---
+2019/03/07 11:13:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "registration/registration". in C:\NewFolder\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registration/re...')
+#1 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Input/index.php/registration/registration?view=registration
+HTTP_REFERER=http://localhost/Input/index.php/registration/registration?view=registration
+---
+2019/03/07 11:14:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "registration/registration". in C:\NewFolder\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registration/re...')
+#1 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Input/index.php/registration/registration?view=registration
+HTTP_REFERER=http://localhost/Input/index.php/registration/registration?view=registration
+---
+2019/03/07 11:14:14 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.registeration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `registeration`.
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (7)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 11:14:14 [error] [exception.CDbException] CDbException: The table "registeration" for active record class "RegistrationForm" cannot be found in the database. in C:\NewFolder\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\NewFolder\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(RegistrationForm))
+#1 C:\NewFolder\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(7): CActiveRecord->__construct()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+---
+2019/03/07 11:14:46 [error] [php] include(RegisterationForm.php): failed to open stream: No such file or directory (C:\NewFolder\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(7): spl_autoload_call()
+#1 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#2 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#4 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#5 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#6 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (7)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 11:20:04 [error] [php] include(RegisterationForm.php): failed to open stream: No such file or directory (C:\NewFolder\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(7): spl_autoload_call()
+#1 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#2 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#4 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#5 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#6 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (7)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 11:20:44 [error] [exception.Error] Error: Class 'RegisterationForm' not found in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php:7
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#1 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#5 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#6 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+---
+2019/03/07 11:21:18 [error] [exception.CException] CException: RegisterationController cannot find the requested view "registration". in C:\NewFolder\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registration', Array, true)
+#1 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(9): CController->render('registration', Array)
+#2 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#3 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#8 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+---
+2019/03/07 11:23:26 [error] [php] Undefined variable: form (C:\xampp\htdocs\Input\protected\views\registeration\registeration.php:34)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(9): RegisterationController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+in C:\xampp\htdocs\Input\protected\views\registeration\registeration.php (34)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (9)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 11:31:17 [error] [php] Undefined index: RegistrationForm (C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php:16)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#1 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#3 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (16)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 11:31:58 [error] [exception.CException] CException: Property "RegisterationForm.create_time" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\NewFolder\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('create_time', 1551954718)
+#1 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(33): CActiveRecord->__set('create_time', 1551954718)
+#2 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#3 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#8 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/registeration/registeration?view=registeration
+---
+2019/03/07 11:35:24 [error] [php] Undefined variable: model (C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php:33)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#1 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#3 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (33)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 11:44:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "registration/registration". in C:\NewFolder\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registration/re...')
+#1 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Input/index.php/registration/registration?view=registration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 11:45:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "registration/registration". in C:\NewFolder\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registration/re...')
+#1 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Input/index.php/registration/registration?view=registration
+HTTP_REFERER=http://localhost/Input/index.php/registration/registration?view=registration
+---
+2019/03/07 11:59:28 [error] [php] Undefined variable: post (C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php:9)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#1 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#3 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (9)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 12:01:04 [error] [php] Undefined variable: post (C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php:9)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#1 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#3 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (9)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 12:08:25 [error] [exception.CException] CException: RegisterationController has an extra endWidget() call in its view. in C:\NewFolder\yii\framework\web\CBaseController.php:210
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\registeration.php(47): CBaseController->endWidget()
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:08:45 [error] [exception.CException] CException: RegisterationController has an extra endWidget() call in its view. in C:\NewFolder\yii\framework\web\CBaseController.php:210
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\registeration.php(47): CBaseController->endWidget()
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:09:13 [error] [exception.CException] CException: RegisterationController has an extra endWidget() call in its view. in C:\NewFolder\yii\framework\web\CBaseController.php:210
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\registeration.php(47): CBaseController->endWidget()
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:13:37 [error] [exception.ParseError] ParseError: syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in C:\xampp\htdocs\Input\protected\views\registeration\registeration.php:15
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#3 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#4 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#5 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#9 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#10 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:14:03 [error] [exception.CException] CException: CActiveForm and its behaviors do not have a method or closure named "activeLabel". in C:\NewFolder\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\registeration.php(12): CComponent->__call('activeLabel', Array)
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:14:27 [error] [exception.CException] CException: CActiveForm and its behaviors do not have a method or closure named "activeLabel". in C:\NewFolder\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\registeration.php(12): CComponent->__call('activeLabel', Array)
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:14:29 [error] [exception.CException] CException: CActiveForm and its behaviors do not have a method or closure named "activeLabel". in C:\NewFolder\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\registeration.php(12): CComponent->__call('activeLabel', Array)
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:14:55 [error] [exception.CException] CException: CActiveForm and its behaviors do not have a method or closure named "activeLabel". in C:\NewFolder\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\registeration.php(12): CComponent->__call('activeLabel', Array)
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:16:05 [error] [exception.CException] CException: CActiveForm and its behaviors do not have a method or closure named "activeLabel". in C:\NewFolder\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\registeration.php(12): CComponent->__call('activeLabel', Array)
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:17:00 [error] [exception.CException] CException: CActiveForm and its behaviors do not have a method or closure named "activeLabel". in C:\NewFolder\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\registeration.php(12): CComponent->__call('activeLabel', Array)
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:18:09 [error] [exception.CException] CException: CActiveForm and its behaviors do not have a method or closure named "activeLabel". in C:\NewFolder\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\registeration.php(12): CComponent->__call('activeLabel', Array)
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:25:28 [error] [exception.CException] CException: CActiveForm and its behaviors do not have a method or closure named "activeLabel". in C:\NewFolder\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\registeration.php(15): CComponent->__call('activeLabel', Array)
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:27:51 [error] [exception.CException] CException: Property "RegisterationForm.names" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\NewFolder\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('names')
+#1 C:\NewFolder\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('names')
+#2 C:\NewFolder\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(RegisterationForm), 'names')
+#3 C:\NewFolder\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RegisterationForm), 'names', Array)
+#4 C:\xampp\htdocs\Input\protected\views\registeration\registeration.php(13): CHtml::activeTextField(Object(RegisterationForm), 'names')
+#5 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#9 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#10 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#11 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#15 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#16 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:28:57 [error] [exception.CException] CException: Property "RegisterationForm.names" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\NewFolder\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('names')
+#1 C:\NewFolder\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('names')
+#2 C:\NewFolder\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(RegisterationForm), 'names')
+#3 C:\NewFolder\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RegisterationForm), 'names', Array)
+#4 C:\xampp\htdocs\Input\protected\views\registeration\registeration.php(13): CHtml::activeTextField(Object(RegisterationForm), 'names')
+#5 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#9 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#10 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#11 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#15 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#16 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:29:23 [error] [exception.CException] CException: Property "RegisterationForm.nam" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\NewFolder\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('nam')
+#1 C:\NewFolder\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('nam')
+#2 C:\NewFolder\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(RegisterationForm), 'nam')
+#3 C:\NewFolder\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RegisterationForm), 'nam', Array)
+#4 C:\xampp\htdocs\Input\protected\views\registeration\registeration.php(13): CHtml::activeTextField(Object(RegisterationForm), 'nam')
+#5 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#9 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#10 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#11 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#15 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#16 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:29:57 [error] [exception.CException] CException: CActiveForm and its behaviors do not have a method or closure named "activeLabelEx". in C:\NewFolder\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\registeration.php(27): CComponent->__call('activeLabelEx', Array)
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:31:08 [error] [exception.CException] CException: CActiveForm and its behaviors do not have a method or closure named "submitButton". in C:\NewFolder\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\registeration.php(33): CComponent->__call('submitButton', Array)
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:33:26 [error] [exception.ParseError] ParseError: syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\Input\protected\views\registeration\registeration.php:14
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#3 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#4 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#5 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#9 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#10 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:33:51 [error] [exception.ParseError] ParseError: syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\Input\protected\views\registeration\registeration.php:14
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('registeration', Array, true)
+#3 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(10): CController->render('registeration', Array)
+#4 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#5 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#9 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#10 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/posted/posted?view=posted
+---
+2019/03/07 12:37:18 [warning] [application] Failed to set unsafe attribute "name" of "RegisterationForm".
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (16)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 12:37:18 [error] [exception.CException] CException: Property "RegisterationForm.nam" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\NewFolder\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('nam')
+#1 C:\NewFolder\yii\framework\validators\CRequiredValidator.php(58): CActiveRecord->__get('nam')
+#2 C:\NewFolder\yii\framework\validators\CValidator.php(213): CRequiredValidator->validateAttribute(Object(RegisterationForm), 'nam')
+#3 C:\NewFolder\yii\framework\base\CModel.php(159): CValidator->validate(Object(RegisterationForm), Array)
+#4 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(21): CModel->validate()
+#5 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionRegisteration()
+#6 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('registeration')
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/r...')
+#11 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/Input/index.php/registeration/registeration?view=registeration
+HTTP_REFERER=http://localhost/Input/index.php/registeration/registeration?view=registeration
+---
+2019/03/07 14:39:32 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "display". in C:\NewFolder\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(270): CController->missingAction('display')
+#1 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('display')
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/d...')
+#3 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Input/index.php/registeration/display?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/07 14:39:47 [error] [php] include(RegisterForm.php): failed to open stream: No such file or directory (C:\NewFolder\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(75): spl_autoload_call()
+#1 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#2 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#4 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#5 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#6 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (75)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 14:40:21 [error] [php] include(RegistrationForm.php): failed to open stream: No such file or directory (C:\NewFolder\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(75): spl_autoload_call()
+#1 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#2 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#4 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#5 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#6 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (75)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 14:40:47 [error] [php] Undefined variable: post (C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php:79)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#1 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#3 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 14:41:07 [error] [php] Undefined variable: record (C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:4)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (4)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 14:42:31 [error] [exception.ParseError] ParseError: syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:2
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#3 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#4 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#5 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#9 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#10 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+---
+2019/03/07 14:51:42 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php:95
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('showuser/')
+#1 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#2 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+---
+2019/03/07 14:52:04 [error] [php] Undefined variable: record (C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:9)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (9)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 14:56:01 [error] [php] Undefined variable: record (C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:21)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (21)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 14:59:52 [error] [php] Undefined variable: record (C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:21)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (21)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 15:00:03 [error] [php] Array to string conversion (C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:21)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (21)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 15:00:59 [error] [php] include(CHTML.php): failed to open stream: No such file or directory (C:\NewFolder\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(10): spl_autoload_call()
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require()
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): RegisterationController->renderInternal()
+#3 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#4 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#9 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (10)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 15:02:32 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:21
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#3 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#4 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#5 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#9 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#10 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+---
+2019/03/07 15:03:12 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:21
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#3 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#4 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#5 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#9 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#10 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+---
+2019/03/07 15:03:53 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:21
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#3 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#4 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#5 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#9 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#10 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+---
+2019/03/07 15:04:12 [error] [php] Undefined variable: record (C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:5)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (5)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 15:05:29 [error] [php] include(CHTML.php): failed to open stream: No such file or directory (C:\NewFolder\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(10): spl_autoload_call()
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require()
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): RegisterationController->renderInternal()
+#3 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#4 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#9 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (10)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 15:12:05 [error] [php] include(CHTML.php): failed to open stream: No such file or directory (C:\NewFolder\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(10): spl_autoload_call()
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require()
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): RegisterationController->renderInternal()
+#3 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#4 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#9 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (10)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 15:16:07 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "display". in C:\NewFolder\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(270): CController->missingAction('display')
+#1 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('display')
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/d...')
+#3 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Input/index.php/registeration/display?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/07 15:16:09 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "display". in C:\NewFolder\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(270): CController->missingAction('display')
+#1 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('display')
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/d...')
+#3 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Input/index.php/registeration/display?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/07 15:16:12 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "display". in C:\NewFolder\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(270): CController->missingAction('display')
+#1 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('display')
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/d...')
+#3 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Input/index.php/registeration/display?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/registeration/display?view=showuser
+---
+2019/03/07 15:17:04 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "display". in C:\NewFolder\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(270): CController->missingAction('display')
+#1 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('display')
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/d...')
+#3 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Input/index.php/registeration/display?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/registeration/display?view=showuser
+---
+2019/03/07 15:17:07 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "display". in C:\NewFolder\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(270): CController->missingAction('display')
+#1 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('display')
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/d...')
+#3 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Input/index.php/registeration/display?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/registeration/display?view=showuser
+---
+2019/03/07 15:17:11 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "display". in C:\NewFolder\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(270): CController->missingAction('display')
+#1 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('display')
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/d...')
+#3 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Input/index.php/registeration/display?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/registeration/display?view=showuser
+---
+2019/03/07 15:18:17 [error] [php] Array to string conversion (C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:19)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (19)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 15:19:06 [error] [php] include(CHTML.php): failed to open stream: No such file or directory (C:\NewFolder\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(10): spl_autoload_call()
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require()
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): RegisterationController->renderInternal()
+#3 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#4 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#9 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (10)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 15:21:38 [error] [php] include(CHTML.php): failed to open stream: No such file or directory (C:\NewFolder\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(10): spl_autoload_call()
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require()
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): RegisterationController->renderInternal()
+#3 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#4 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#9 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (10)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/07 15:23:25 [error] [php] include(CHTML.php): failed to open stream: No such file or directory (C:\NewFolder\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(10): spl_autoload_call()
+#1 C:\NewFolder\yii\framework\web\CBaseController.php(126): require()
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(95): RegisterationController->renderInternal()
+#3 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#4 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#5 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#6 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#7 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#9 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#10 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (10)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/08 06:00:59 [error] [exception.CException] CException: Property "CWebApplication.defaultpath" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\NewFolder\yii\framework\base\CModule.php(105): CComponent->__get('defaultpath')
+#1 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(23): CModule->__get('defaultpath')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#6 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#7 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#8 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#12 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#13 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/08 06:01:30 [error] [exception.CException] CException: Property "CWebApplication.C:
+mpp\htdocs\Input\upload" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\NewFolder\yii\framework\base\CModule.php(105): CComponent->__get('C:\nmpp\\htdocs\\I...')
+#1 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(23): CModule->__get('C:\nmpp\\htdocs\\I...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#6 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#7 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#8 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#12 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#13 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/08 06:02:01 [error] [exception.CException] CException: Property "CWebApplication.C:\xampp\htdocs\Input\upload" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\NewFolder\yii\framework\base\CModule.php(105): CComponent->__get('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(23): CModule->__get('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#6 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#7 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#8 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#12 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#13 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/08 06:03:37 [error] [exception.CException] CException: Property "CWebApplication.C:\xampp\htdocs\Input\upload" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\NewFolder\yii\framework\base\CModule.php(105): CComponent->__get('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(25): CModule->__get('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#6 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#7 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#8 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#12 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#13 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/08 06:03:59 [error] [exception.CException] CException: Property "CWebApplication.C:\xampp\htdocs\Input\upload" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\NewFolder\yii\framework\base\CModule.php(105): CComponent->__get('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(25): CModule->__get('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#6 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#7 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#8 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#12 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#13 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/08 06:07:26 [error] [exception.CException] CException: Property "CWebApplication.C:\xampp\htdocs\Input\upload" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\NewFolder\yii\framework\base\CModule.php(105): CComponent->__get('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(25): CModule->__get('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#6 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#7 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#8 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#12 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#13 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/08 06:09:30 [error] [exception.ParseError] ParseError: syntax error, unexpected '$image' (T_VARIABLE) in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:26
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#3 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#4 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#5 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#9 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#10 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/08 06:10:45 [error] [exception.ParseError] ParseError: syntax error, unexpected ''C:\xampp\htdocs\Input\upload'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:26
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#3 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#4 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#5 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#9 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#10 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/08 06:11:18 [error] [exception.ParseError] ParseError: syntax error, unexpected ''C:/xampp/htdocs/Input/upload'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:26
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#3 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#4 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#5 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#9 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#10 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/08 06:12:59 [error] [exception.ParseError] ParseError: syntax error, unexpected ''C:/xampp/htdocs/Input/upload'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:26
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#3 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#4 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#5 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#9 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#10 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/08 06:14:47 [error] [exception.ParseError] ParseError: syntax error, unexpected ''C:/xampp/htdocs/Input/upload'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:26
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#3 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#4 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#5 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#9 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#10 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/08 06:20:54 [error] [exception.CException] CException: Property "CWebApplication.C:\xampp\htdocs\Input\upload" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\NewFolder\yii\framework\base\CModule.php(105): CComponent->__get('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(32): CModule->__get('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#6 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#7 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#8 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#12 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#13 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/08 06:21:40 [error] [exception.CException] CException: Property "CWebApplication.baseUrll" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\NewFolder\yii\framework\base\CModule.php(105): CComponent->__get('baseUrll')
+#1 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(32): CModule->__get('baseUrll')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#6 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#7 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#8 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#12 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#13 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/08 06:22:07 [error] [php] Undefined variable: baseurll (C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:32)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (32)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/08 06:22:18 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:32)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (32)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/08 06:22:41 [error] [exception.CException] CException: Property "CWebApplication.C:\xampp\htdocs\Input\upload" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\NewFolder\yii\framework\base\CModule.php(105): CComponent->__get('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(32): CModule->__get('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#6 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#7 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#8 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#12 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#13 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/08 06:25:45 [error] [exception.CException] CException: Property "CWebApplication.C:
+mpp\htdocs\Input\upload" is not defined. in C:\NewFolder\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\NewFolder\yii\framework\base\CModule.php(106): CComponent->__get('C:\nmpp\\htdocs\\I...')
+#1 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(32): CModule->__get('C:\\xampp\\htdocs...')
+#2 C:\NewFolder\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#6 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#7 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#8 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#12 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#13 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/08 06:27:01 [error] [php] Undefined variable: baseUrl (C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:34)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#1 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#2 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#3 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#4 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#6 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#7 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (34)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
+2019/03/08 06:29:44 [error] [exception.ParseError] ParseError: syntax error, unexpected '*' in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php:37
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\NewFolder\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\NewFolder\yii\framework\web\CController.php(782): CController->renderPartial('showuser', Array, true)
+#3 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): CController->render('showuser', Array)
+#4 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#5 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\NewFolder\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\NewFolder\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('showuser')
+#9 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registeration/s...')
+#10 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\Input\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+HTTP_REFERER=http://localhost/Input/index.php/site/index
+---
+2019/03/08 06:29:57 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\NewFolder\yii\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 C:\NewFolder\yii\framework\web\helpers\CHtml.php(442): tag()
+#2 C:\xampp\htdocs\Input\protected\views\registeration\showuser.php(36): image()
+#3 C:\NewFolder\yii\framework\web\CBaseController.php(126): require()
+#4 C:\NewFolder\yii\framework\web\CBaseController.php(95): RegisterationController->renderInternal()
+#5 C:\NewFolder\yii\framework\web\CController.php(869): RegisterationController->renderFile()
+#6 C:\NewFolder\yii\framework\web\CController.php(782): RegisterationController->renderPartial()
+#7 C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php(79): RegisterationController->render()
+#8 C:\NewFolder\yii\framework\web\actions\CInlineAction.php(49): RegisterationController->actionShowuser()
+#9 C:\NewFolder\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\NewFolder\yii\framework\web\CController.php(286): RegisterationController->runAction()
+#11 C:\NewFolder\yii\framework\web\CController.php(265): RegisterationController->runActionWithFilters()
+#12 C:\NewFolder\yii\framework\web\CWebApplication.php(282): RegisterationController->run()
+#13 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Input\index.php(13): CWebApplication->run()
+REQUEST_URI=/Input/index.php/registeration/showuser?view=showuser
+in C:\xampp\htdocs\Input\protected\views\registeration\showuser.php (36)
+in C:\xampp\htdocs\Input\protected\controllers\RegisterationController.php (79)
+in C:\xampp\htdocs\Input\index.php (13)
