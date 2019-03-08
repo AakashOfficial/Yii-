@@ -1,0 +1,62 @@
+<!--
+
+<html>
+<head><title>Register Application</title></head>
+<body>
+  <form action="imag" method="post">
+	    <table width="509" height="501" border=2 align="center" style="border-collapse:collapse">
+		  <tr><td colspan=2 style="text-align:center" ><h2>Image Upload Details<h2></td></tr>
+		 
+		  <tr>
+		    <td>Upload Image <input type="file" name="images"></td>
+		  </tr>
+		  
+		  <tr>
+		     <td colspan=2> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="submit" name="imageupload" value="Image Upload"> </td>
+		  </tr>
+			    
+	</table>	  
+  </form>   
+</body>
+</html>
+
+
+<form enctype="multipart/form-data"></form>
+<input type="file" name="file">
+
+
+
+
+'htmlOptions' => array(
+		'enctype' => 'multipart/form-data',
+	),
+	
+<div class="row">
+		<?php //echo $form->labelEx($model,'image'); ?>
+		<?php //echo CHtml::activeFileField($model, 'image'); ?> <!-- by this we can upload image -->
+		<?php// echo $form->error($model,'image'); ?>
+</div>
+<?php //if($model->isNewRecord!='1'){ ?>
+<div class="row">
+	 <?php// echo CHtml::image(Yii::app()->request->baseUrl.'/banner/'.$model->image,"image",array("width"=>200)); ?>  <!-- Image shown here if page is update page -->
+</div>
+
+-->
+
+<?php
+$form = $this->beginWidget(
+	'CActiveForm',
+	array(
+		'id' => 'upload-form',
+		'enableAjaxValidation' => false,
+		'htmlOptions' => array('enctype' => 'multipart/form-data'),
+	)
+);
+// ...
+echo $form->labelEx($model, 'image');
+echo $form->fileField($model, 'image');
+echo $form->error($model, 'image');
+// ...
+echo CHtml::submitButton('Submit');
+$this->endWidget();
+?>
