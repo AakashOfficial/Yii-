@@ -1,0 +1,211 @@
+<?php
+
+class ImagController extends Controller
+{
+
+	/**
+	 * This is the default 'index' action that is invoked
+	 * when an action is not explicitly requested by users.
+	 */
+	public function actionImag()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$model=new ImagForm;    
+        $this->render('imag',array(
+                'model'=>$model,
+            )); 
+			
+		$defaultdir = sys_get_temp_dir();
+		echo $defaultdir;
+		echo "==============================";
+		if(isset($_REQUEST['ImagForm'])){
+		    $filenames = $_FILES['ImagForm']['tmp_name'];
+			//$filename = (string)$filename;
+			//echo implode( ", ",$filenames);
+			$filename = implode( ", ",$filenames);
+		    echo $filename;
+		}
+		$destination = "C:\xampp\tmp\New\New";
+		move_uploaded_file ($filename , $destination );
+		//$image = CUploadedFile::getInstance ($model, '$uploaded');
+		//$image->saveAs('C:\xampp\tmp\New');
+		//$ourModel->imageField = 'C:\xampp\tmp\New\.';
+		//$model->save();
+		
+		
+		
+		
+		
+		
+		
+		//$currentDir = getcwd();
+        //$uploadDirectory = "/uploads/"
+		
+		
+	    /*echo "ssss<pre>"; print_r($_REQUEST); 
+		
+		if(isset($_REQUEST['ImagForm'])){
+			echo "ssss<pre>"; print_r($_FILES['ImagForm']); exit();
+		}
+		*/
+
+	   
+		//$temp_file = tempnam(sys_get_temp_dir(), '$_REQUEST');
+		//if(isset($_FILES['ImagForm'])){
+			//$uploaded = $_FILES['image'];
+		
+		
+		//$image = CUploadedFile::getInstance ($model, '$uploaded');
+		//$image->saveAs('C:\xampp\tmp\New');
+		//$ourModel->imageField = 'C:\xampp\tmp\New\.';
+		//$model->save();
+        }
+		
+        //if(isset($_REQUEST['ImagForm'])){
+		//	echo "ssss<pre>"; print_r($_FILES['ImagForm']); exit();
+		//}
+				
+		
+		
+		//$this->render('imag',array(
+        //        'model'=>$model,
+        //     )); 
+		//}	
+		
+		
+	/*foreach ($_FILES["pictures"]["error"] as $key => $error) {
+     if ($error == UPLOAD_ERR_OK) {
+        $tmp_name = $_FILES["pictures"]["tmp_name"][$key];
+        // basename() may prevent filesystem traversal attacks;
+        // further validation/sanitation of the filename may be appropriate
+        $name = basename($_FILES["pictures"]["name"][$key]);
+        move_uploaded_file($tmp_name, "$uploads_dir/$name");
+     }
+    }*/
+		
+	/*move_uploaded_file ( string $ImagForm , string $destination )
+		//$this->render('imag');
+		if(isset($_REQUEST['ImagForm'])){
+			echo "ssss<pre>"; print_r($_FILES['ImagForm']); exit();
+			
+			//rename( Yii::app()->basePath.'C:\xampp\tmp\'.$ads->image, Yii::app()->basePath.'C:\Users\Deepak\Desktop\'.$ads->image);
+			
+		}
+		
+		$this->render('imag',array(
+                'model'=>$model,
+            )); 
+	}
+	*/
+	
+	/*
+	public function actionImag()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$model=new ImagForm;
+       
+        
+	echo "ssss<pre>"; print_r($_REQUEST); 
+		//$this->render('imag');
+		if(isset($_REQUEST['ImagForm'])){
+			echo "ssss<pre>"; print_r($_FILES['ImagForm']); exit();
+			
+			//rename(Yii::app()->basePath.'C:\xampp\tmp\'.$ads->image, Yii::app()->basePath.'C:\Users\Deepak\Desktop\'.$ads->image);
+			if(isset($_REQUEST['ImagForm'])){
+			echo "ssss<pre>"; print_r($_FILES['ImagForm']); exit();
+			//$imagevar = $_POST['images'];
+			//$messages = "";
+			//$this->actionImagevali(array('userimage' => $imagevar));
+            //$message = $this;
+			//echo $message;
+		}
+		
+		$this->render('imag',array(
+                'model'=>$model,
+            )); 
+	}
+	}
+	*/
+	
+	/*public function actionImagevali($userimage){
+		
+		$message ="cvvhgjkkhjgfdghjk";
+		array('$userimage', 'file', 
+             'types'=>'jpg, gif, png', 
+           // 'on'=>'insert',//scenario
+           // 'except'=>'update',
+            'message' => 'Upload Valid Image!',  // Error message
+            'wrongType'=>'File type is Invalid',
+            'minSize'=>512,// 1MB
+            'maxSize'=>1024,
+            'maxFiles'=>1,
+            'tooLarge'=>'File Size Too Large',//Error Message
+            'tooSmall'=>'File Size Too Small',//Error Message
+            'tooMany'=>'Too Many Files Uploaded',//Error Message                                
+            );
+			
+			if($userimage.size > maxSize || $userimage.size < minSize)
+				$message = "Invalid Size";
+			
+			if($userimage.type != types)
+				$message = "Invalid Type";
+			
+			echo $message;
+	}
+	*/
+	
+	/*public function actionCreate()
+	{
+		$model=new Banner;  // this is my model related to table
+		if(isset($_POST['Banner']))
+		{
+			$rnd = rand(0,9999);  // generate random number between 0-9999
+			$model->attributes=$_POST['Banner'];
+			
+			$uploadedFile=CUploadedFile::getInstance($model,'image');
+			$fileName = "{$rnd}-{$uploadedFile}";  // random number + file name
+			$model->image = $fileName;
+			
+			if($model->save())
+			{
+				$uploadedFile->saveAs(Yii::app()->basePath.'/../banner/'.$fileName);  // image will uplode to rootDirectory/banner/
+				$this->redirect(array('admin'));
+			}
+		}
+		$this->render('create',array(
+			'model'=>$model,
+		));
+	}
+	*/
+	/*
+	public function actionUpdate($id)
+	{
+		$model=$this->loadModel($id);
+	
+		if(isset($_POST['Banner']))
+		{
+			$_POST['Banner']['image'] = $model->image;
+			$model->attributes=$_POST['Banner'];
+			
+			$uploadedFile=CUploadedFile::getInstance($model,'image');
+			
+			if($model->save())
+			{
+				if(!empty($uploadedFile))  // check if uploaded file is set or not
+				{
+					$uploadedFile->saveAs(Yii::app()->basePath.'/../banner/'.$model->image);
+				}
+				$this->redirect(array('admin'));
+			}
+
+		}
+
+		$this->render('update',array(
+			'model'=>$model,
+		));
+	}
+	*/
+
+}
